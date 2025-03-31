@@ -1,6 +1,8 @@
-You will have to change anywhere that has $mamp for logging into your database should be in: 
+You will have to change anywhere that has $mamp for logging into your database should be in:
 * log_in.php
 * register.php
+-------------------------------------------
+Also edit the sql_login.php do fit your needs
 
 FIXES/UPDATE
 * login not working
