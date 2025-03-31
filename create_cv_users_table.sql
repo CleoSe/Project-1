@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS cv_users_table (
+	user_id INT AUTO_INCREMENT PRIMARY KEY,
+    first_name VARCHAR(40) NOT NULL,
+	last_name VARCHAR(80) NOT NULL,
+	email VARCHAR(80) UNIQUE NOT NULL,
+	pass VARCHAR(256) NOT NULL,
+	registration_date VARCHAR(256) NOT NULL);
