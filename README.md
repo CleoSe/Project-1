@@ -1,3 +1,7 @@
+You will have to change anywhere that has $mamp for logging into your database should be in: 
+* log_in.php
+* register.php
+
 FIXES/UPDATE
 * login not working
 * added header.html
