@@ -1,22 +1,12 @@
-You will have to change anywhere that has $mamp for logging into your database should be in:
-* log_in.php
-* register.php
--------------------------------------------
-Also edit the sql_login.php do fit your needs
-
-FIXES/UPDATE
-* login not working -> login should be working as intended
-* added header.html, footer.html, layout.css, and cars_img.jpg
-* stays logged in until "logout" is selected -> should log out properly now.
-* Running into a bug where after registration sometimes (I think when there is an input error) you will get a 404 error
-* 
-
-----------------------------------------
+FIXES/UPDATES
+* Styling!
+* cars_table and users_cars_table changed to fit assigment parameters
+* populate_cars_table includes every car and every year with different prices
+* Able to valuate cars which are only able to be viewed in the "history" tab
+* Able to view Valuation History with prices based off mileage and condition
+---------------
 NEEDS
-* when getting info on car (valuation.php) add to user histoty
-* be able to view history
-* add price changes due to mileage, private-owner etc...
-
-* other things also needed just not sure at the moment
-  
+* Testing (probably the registration)
+--------------------
+* Don't forget to change the sql_login and pdo ($dbUser, $dbPassword, etc...)
   
