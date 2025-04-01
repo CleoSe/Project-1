@@ -5,16 +5,15 @@ You will have to change anywhere that has $mamp for logging into your database s
 Also edit the sql_login.php do fit your needs
 
 FIXES/UPDATE
-* login not working
-* added header.html
-* stays logged in until "logout" is selected
-* added to 'valuation.php'
+* login not working -> login should be working as intended
+* added header.html, footer.html, layout.css, and cars_img.jpg
+* stays logged in until "logout" is selected -> should log out properly now.
+* Running into a bug where after registration sometimes (I think when there is an input error) you will get a 404 error
+* 
 
 ----------------------------------------
 NEEDS
-* header needs styling
-* most likely want a footer
-* when getting info on car (valuation.php) add to user history
+* when getting info on car (valuation.php) add to user histoty
 * be able to view history
 * add price changes due to mileage, private-owner etc...
 

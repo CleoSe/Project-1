@@ -1,17 +1,17 @@
 <?php
-      require_once 'sql_login.php';
+//require_once 'sql_login.php';
+$page_title = 'Home';
+include('header.html');
 
-      include('header.html');
+if (isset($_SESSION['user_id'])) {
+    $name = htmlspecialchars($_SESSION['name']);
+    echo "<h3><strong>Welcome, $name!</strong></h3>";
+} else {
+    echo "<h3><strong>Welcome! Please register to proceed. If registered, log in now.</strong></h3>";
+}
 
-      if (isset($_SESSION['user_id'])) {
-        $name = htmlspecialchars($_SESSION['name']);
-        echo "<h3><strong>Welcome, $name!</strong></h3>";
-      }
-      
-      ?>
-    <ul>
-        <li><a href="register.php">Register</a></li>
-        <li><a href="log_in.php">Log In</a></li>
-        <li><a href="valuation.php">Valuate Car</a></li>
-        <li><a href ="logout.php">Logout</a></li>
-    </ul>
+?>
+
+<?php
+include('footer.html');
+?>

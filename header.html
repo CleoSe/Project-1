@@ -1,14 +1,21 @@
 <?php
+// This page begins the HTML header for the site.
 session_start();
+// Check for a $page_title value:
+if (!isset($page_title)) {
+	$page_title = 'User Registration';
+}
 ?>
+<!DOCTYPE html>
 
 <html>
-  <head>
-    <meta charset = "utf-8" />
-    <title>CarVal | Car Valuation Tool</title>
-  </head>
-  <body>
-    <h1>CarVal</h1>
-    <h2>The Car Valuation Tool!</h2>
-    </body>
-    </html>
+<head>
+    <meta charset="utf-8"/>
+    <title><?php echo $page_title; ?></title>
+    <link rel="stylesheet" type="text/css" href="layout.css"/>
+</head>
+<body>
+
+<div id="Header">Car Valuation</div>
+<div id="Container">
+<div id="Content">

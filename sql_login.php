@@ -6,8 +6,8 @@
   //host: use localhost on both AMPPS/MAMPS and Turing. 
   $mampUser = 'root';
   $mampPassword = 'root';
-  $dbUser = 'oshimer'; //use root on AMPPS/MAMPS or your user-name on Turing
-  $dbPassword = 'oshimer';
+  $dbUser = 'ausbamme'; //use root on AMPPS/MAMPS or your user-name on Turing
+  $dbPassword = 'ausbamme';
   //For password, use empty string on AMPPS/MAMPS or your password if you have one. 
   //Default AMPPS/MAMPS password is mysql
   

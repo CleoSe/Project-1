@@ -1,0 +1,29 @@
+<!-- End of Content -->
+</div>
+
+<div id="Menu">
+    <a href="index.php" title="Home Page">Home</a><br/>
+    <?php
+
+// If the user is logged-in, show logout in the menu and change password links
+if (isset($_SESSION['user_id'])) {
+
+	echo '<a href="valuation.php" title="Valuation">Valuation</a><br/>
+    <a href="register.php" title="Register for the Site">Register</a><br/>
+    <a href = "view_history.php" title="View History">View History</a><br/>
+    <a href="logout.php" title="Logout">Logout</a><br/>';
+    } else { // Not logged in.
+
+    echo '<a href="register.php" title="Register for the Site">Register</a><br/>
+    <a href="log_in.php" title="Login">Login</a><br/>';
+    }
+    ?>
+
+</div>
+</div>
+<img src="cars_img.jpg" id="cars" alt="Cars"/><br/>
+
+<div id="Footer">Thank you for your participation!</div>
+</body>
+</html>
+

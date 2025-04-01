@@ -1,0 +1,88 @@
+#Container {
+    display: flex;
+    max-width: 100%;
+    height: max-content;
+    padding: 20px 10px 20px 10px;
+}
+
+#Header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    font-family: Copperplate, serif;
+    border-style:solid;
+    border-color:black;
+    border-width:4px;
+    background-color:lightgray;
+}
+
+#Footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: Copperplate, serif;
+    border-style:solid;
+    border-color:black;
+    border-width:4px;
+    background-color:lightgray;
+}
+
+#Content {
+    border: 5px solid #a8a8a8;
+    text-align: center;
+    width: 75%;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #e0e0e0;
+}
+
+#Menu {
+    border: 4px groove #c0c0c0;
+    background-color: #ececec;
+    width: 15%;
+    max-height: fit-content;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+a {
+    font-family: verdana, arial, helvetica, serif;
+    font-size: 24px;
+    text-decoration: none;
+    margin: auto;
+    padding: 2px;
+}
+
+a:link {color:#09c;}
+
+a:visited {color:#07a;}
+
+a:hover {background-color: lightskyblue;}
+
+label {
+    font-size: 24px;
+}
+
+input {
+    font-size: 20px;
+}
+
+button, select{
+    font-size: 18px;
+}
+
+img {
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+.error {
+    color:#FF0033;
+    font-size:18px;
+}
