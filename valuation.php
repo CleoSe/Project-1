@@ -42,25 +42,58 @@
 
     if ($display_form) {
     ?>
-      <p><form name="valuation_form" action="valuation.php" method="post">
+      <p><form name="valuation_form" method="valuation.php" method="post">
 	<label for="make_box">Make:</label>
 	<select name="make_box" id="make_box">
-    <option value= "Honda">Honda</option>
+    <option value = "honda">Honda</option>
+    <option value = "ford">Ford</option>
+    <option value = "toyota">Toyota</option>
+    
 	</select>
 	<label for="model_box">Model:</label>
 	<select name="model_box" id="model_box">
-    <option value = "Civic">Civic</option>
+    <option value = "civic">Civic</option>
+    <option value = "civic">Prelude</option>
+    <option value = "expedition">Expedition</option>
+    <option value = "f150">F150</option>
+    <option value = "gr86">GR86</option>
+    <option value = "civic">Civic</option>
 	</select>
 	<label for="year_box">Year:</label>
 	<select name="year_box" id="year_box">
-    <option value = 2000>2000</option>
+    <option value = "2000">2000</option>
+    <option value = "2001">2001</option>
+    <option value = "2002">2002</option>
+    <option value = "2003">2003</option>
+    <option value = "2004">2004</option>
+    <option value = "2005">2005</option>
+    <option value = "2006">2006</option>
+    <option value = "2007">2007</option>
+    <option value = "2008">2008</option>
+    <option value = "2009">2009</option>
+    <option value = "2010">2010</option>
+    <option value = "2011">2011</option>
+    <option value = "2012">2012</option>
+    <option value = "2013">2013</option>
+    <option value = "2014">2014</option>
+    <option value = "2015">2015</option>
+    <option value = "2016">2016</option>
+    <option value = "2017">2017</option>
+    <option value = "2018">2018</option>
+    <option value = "2019">2019</option>
+    <option value = "2020">2020</option>
+    <option value = "2021">2021</option>
+    <option value = "2022">2022</option>
+    <option value = "2023">2023</option>
+    <option value = "2024">2024</option>
+    <option value = "2025">2025</option>
 	</select>
 	<label for="condition_box">Condition:</label>
 	<select name="condition_box" id="condition_box">
-	  <option value= 1>Fair</option>
-	  <option value= 2>Good</option>
-	  <option value= 3>Very Good</option>
-	  <option value= 4>Excellent</option>
+	  <option value="fair">Fair</option>
+	  <option value="good">Good</option>
+	  <option value="very_good">Very Good</option>
+	  <option value="excellent">Excellent</option>
 	</select>
   <label>Mileage: </label>
   <input type="text" id="mileage" name="mileage"/>
