@@ -8,6 +8,7 @@ FIXES/UPDATE
 * login not working
 * added header.html
 * stays logged in until "logout" is selected
+* added to 'valuation.php'
 
 ----------------------------------------
 NEEDS
